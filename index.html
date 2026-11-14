@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f4efe7">
+  <meta name="description" content="50 Años de Amor – eine Reise durch 50 Jahre voller Erinnerungen.">
+  <title>50 Años de Amor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <header class="topbar">
+    <a class="brand" href="#start">50 <span>Años de Amor</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menü öffnen">☰</button>
+    <nav id="nav">
+      <a href="#geschichte">Ihre Geschichte</a>
+      <a href="#momente">Erinnerungen</a>
+      <a href="#liebe">50 Dinge</a>
+      <a href="#brief">Ein Brief</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="start">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">23. NOVEMBER 2026 · EIN BESONDERER TAG</p>
+        <h1>50 Jahre.<br><em>Unzählige</em> Geschichten.</h1>
+        <p class="intro">Ein kleiner Rückblick auf all die Momente, die dich zu dem Menschen machen, den wir so lieb haben.</p>
+        <a class="primary-button" href="#geschichte">Die Reise beginnen <span>↗</span></a>
+        <p class="small-note">Hecho con mucho amor · Mit ganz viel Liebe gemacht</p>
+      </div>
+      <div class="hero-photo reveal">
+        <div class="photo-frame">
+          <img src="assets/photos/hero.jpg" alt="Lieblingsfoto deiner Mama" onerror="this.style.display='none'; this.parentElement.classList.add('empty-photo')">
+          <span class="photo-placeholder">DEIN LIEBLINGSFOTO<br>HIER EINFÜGEN</span>
+        </div>
+        <span class="photo-caption">La protagonista · Die Hauptperson</span>
+        <span class="orbit orbit-one"></span><span class="orbit orbit-two"></span>
+      </div>
+      <div class="scroll-hint">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="intro-strip reveal">
+      <span class="eyebrow">UNA VIDA · 50 AÑOS</span>
+      <p>Von den ersten kleinen Schritten bis zu all den grossen Momenten: <em>Das hier ist deine Geschichte.</em></p>
+    </section>
+
+    <section class="section timeline-section" id="geschichte">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / HER STORY</p>
+        <h2>Ein Leben voller<br><em>Kapitel.</em></h2>
+        <p>Jedes Jahr ein neues Kapitel. Hier kommen die wichtigsten Stationen ihres Lebens hin.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-year">1976</div><div class="timeline-dot"></div>
+          <div class="timeline-card"><p class="eyebrow">THE BEGINNING</p><h3>Am Anfang warst du.</h3><p>Hier beginnt deine Geschichte. Ein kleines Mädchen und eine Welt voller Möglichkeiten.</p><img src="assets/photos/baby.jpg" alt="Babyfoto" onerror="this.style.display='none'"></div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-year">1980s</div><div class="timeline-dot"></div>
+          <div class="timeline-card"><p class="eyebrow">CHILDHOOD</p><h3>Die Kindheit.</h3><p>Hier kannst du eine schöne Erinnerung aus ihrer Kindheit erzählen.</p><img src="assets/photos/childhood.jpg" alt="Kindheitsfoto" onerror="this.style.display='none'"></div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-year">1990s</div><div class="timeline-dot"></div>
+          <div class="timeline-card"><p class="eyebrow">GROWING UP</p><h3>Die Teenagerjahre.</h3><p>Freunde, Musik, Abenteuer und Erinnerungen, die geblieben sind.</p><img src="assets/photos/teenage.jpg" alt="Jugendfoto" onerror="this.style.display='none'"></div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-year">2000s</div><div class="timeline-dot"></div>
+          <div class="timeline-card"><p class="eyebrow">A NEW CHAPTER</p><h3>Neue Wege.</h3><p>Hier ist Platz für wichtige Erlebnisse, Reisen und besondere Menschen.</p><img src="assets/photos/young-adult.jpg" alt="Foto aus jungen Erwachsenenjahren" onerror="this.style.display='none'"></div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-year">TODAY</div><div class="timeline-dot"></div>
+          <div class="timeline-card"><p class="eyebrow">THE WOMAN YOU ARE</p><h3>Und heute: du.</h3><p>50 Jahre voller Geschichten – und noch so vieles, das vor dir liegt.</p><img src="assets/photos/today.jpg" alt="Aktuelles Foto" onerror="this.style.display='none'"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery-section section" id="momente">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / LITTLE MOMENTS, BIG MEMORIES</p>
+        <h2>Momente, die<br><em>bleiben.</em></h2>
+        <p>Ein paar Bilder sagen manchmal mehr als tausend Worte. Klicke auf ein Foto, um es gross zu sehen.</p>
+      </div>
+      <div class="gallery" id="gallery">
+        <button class="gallery-card tilt" data-caption="Ein besonderer Moment"><img src="assets/photos/memory-1.jpg" alt="Erinnerung 1"><span>01 · Ein besonderer Moment</span></button>
+        <button class="gallery-card tilt" data-caption="Zusammen ist es am schönsten"><img src="assets/photos/memory-2.jpg" alt="Erinnerung 2"><span>02 · Zusammen</span></button>
+        <button class="gallery-card tilt" data-caption="Ein Tag zum Erinnern"><img src="assets/photos/memory-3.jpg" alt="Erinnerung 3"><span>03 · Ein Tag zum Erinnern</span></button>
+        <button class="gallery-card tilt" data-caption="Einfach du"><img src="assets/photos/memory-4.jpg" alt="Erinnerung 4"><span>04 · Einfach du</span></button>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <p class="eyebrow">UNA FRASE PARA TI</p>
+      <blockquote>“La vida se mide en momentos, no en años.”</blockquote>
+      <span>Das Leben misst sich in Momenten, nicht in Jahren.</span>
+    </section>
+
+    <section class="section love-section" id="liebe">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / 50 THINGS WE LOVE ABOUT YOU</p>
+        <h2>50 kleine Gründe.<br><em>Eine grosse Liebe.</em></h2>
+        <p>Klicke die Karten an. Die Texte kannst du später durch eure eigenen Gründe ersetzen.</p>
+      </div>
+      <div class="reasons-grid" id="reasonsGrid"></div>
+    </section>
+
+    <section class="letter-section section" id="brief">
+      <div class="letter reveal">
+        <p class="eyebrow">04 / CON TODO MI CORAZÓN</p>
+        <h2>Ein paar Worte<br><em>von mir.</em></h2>
+        <p class="letter-placeholder">Hier kommt dein persönlicher Brief an deine Mama hin. Schreib, was du ihr schon lange sagen möchtest – ganz in deinen eigenen Worten.</p>
+        <p class="signature">Con mucho amor, <span>deine ...</span></p>
+      </div>
+    </section>
+
+    <section class="final-section">
+      <p class="eyebrow">23 · 11 · 2026</p>
+      <h2>Feliz cumpleaños.<br><em>Auf die nächsten 50.</em></h2>
+      <p>Danke für all die Erinnerungen – und für alles, was noch kommt.</p>
+      <button class="surprise-button" id="surpriseButton">Eine letzte Überraschung <span>✦</span></button>
+      <div id="surpriseMessage" class="surprise-message" aria-live="polite">Te quiero muchísimo. ❤️</div>
+    </section>
+  </main>
+
+  <footer><span>50 AÑOS DE AMOR</span><span>Made with love · 2026</span></footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Schliessen">×</button>
+    <img id="lightboxImage" src="" alt="">
+    <p id="lightboxCaption"></p>
+  </div>
+  <div class="confetti-layer" id="confettiLayer"></div>
+  <script src="script.js"></script>
+</body>
+</html>
