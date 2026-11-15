@@ -1,0 +1,1 @@
+Lege hier deine Fotos ab. Die benötigten Dateinamen stehen in der Haupt-README.m
