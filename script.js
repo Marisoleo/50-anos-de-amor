@@ -44,9 +44,9 @@ document.getElementById("gateForm").addEventListener("submit", e => {
 
 // FOTO-JAHRESZAHLEN-RÄTSEL – richtige Jahre und Optionen hier bearbeiten
 const quizzes = [
-  {img:"assets/photos/quiz-1.jpg",year:"1996",options:["1986","1996","2006","2016"]},
-  {img:"assets/photos/quiz-2.jpg",year:"2006",options:["1996","2001","2006","2011"]},
-  {img:"assets/photos/quiz-3.jpg",year:"2016",options:["2006","2011","2016","2021"]}
+  {img:"assets/quiz-1.jpg",year:"1996",options:["1986","1996","2006","2016"]},
+  {img:"assets/quiz-2.jpg",year:"2006",options:["1996","2001","2006","2011"]},
+  {img:"assets/quiz-3.jpg",year:"2016",options:["2006","2011","2016","2021"]}
 ];
 let q = 0;
 function renderQuiz(){
