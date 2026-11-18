@@ -1,5 +1,5 @@
 // PASSWORT HIER ÄNDERN
-const SITE_PASSWORD = "MAMA50";
+const SITE_PASSWORD = "wmcdm76";
 
 // HIER DIE 50 KLEINEN GRÜNDE ANPASSEN
 const reasons = [
